@@ -139,10 +139,10 @@ def Validate_ADDING():
     elif result > count:
         Error5()
 
-        proname.delete(0, END)
-        proprice.delete(0, END)
-        procont.delete(0, END)
-        proname.focus_set()
+        ingname.delete(0, END)
+        ingquantity.delete(0, END)
+        ingprice.delete(0, END)
+        ingname.focus_set()
 def Validate_EDITING():
 
     name = ingname.get()
